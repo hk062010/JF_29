@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NOVA — Book a consultation</title><link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" /><link rel="stylesheet" href="style.css" />
+</head>
+<body class="consultation-page"><div class="noise"></div>
+  <nav class="nav container"><a class="brand" href="index.html">NOVA<span>®</span></a><div class="nav-links"><a href="index.html#work">What we do</a><a href="index.html#approach">Our approach</a><a href="payment.html">Plans</a></div><a class="nav-cta" href="consultation.html">Book consultation <i>↗</i></a></nav>
+  <main class="booking container">
+    <section class="booking-copy"><p class="eyebrow">
+      <span></span> MEET WITH NOVA</p><h1>Let's find the<br /><em>right next move.</em></h1><p>Tell us a little about your organization and the outcome you have in mind. We’ll come prepared for a focused 30-minute consultation.</p><div class="booking-note"><span>✦</span><p><b>What happens next</b>We’ll confirm your preferred time within one business day and send a calendar invitation.</p></div></section>
+    <section class="booking-form-wrap"><div class="form-top"><p>CONSULTATION REQUEST</p><span>30 MINUTES</span></div><form class="booking-form">
+      <div class="form-row"><label>Company name<input type="text" name="company" placeholder="Acme Inc." required /></label><label>Company website<input type="url" name="website" placeholder="www.acme.com" /></label></div>
+      <div class="form-row"><label>Contact person name<input type="text" name="name" placeholder="Your full name" required /></label><label>Job title<input type="text" name="title" placeholder="e.g. VP of Strategy" /></label></div>
+      <div class="form-row"><label>Work email<input type="email" name="email" placeholder="you@company.com" required /></label><label>Phone number<input type="tel" name="phone" placeholder="10-digit phone number" inputmode="numeric" pattern="[0-9]{10}" minlength="10" maxlength="10" title="Enter exactly 10 digits" required /></label></div>
+      <div class="form-row"><label>Preferred consultation date<input type="date" name="date" max="2030-12-31" required /></label><label>Preferred time<select name="time" required><option value="">Select a time</option><option>09:00 – 11:00</option><option>11:00 – 13:00</option><option>14:00 – 16:00</option><option>16:00 – 18:00</option></select></label></div>
+      <label>What would you like to discuss?<textarea name="notes" rows="4" placeholder="Tell us about your challenge, goal, or AI opportunity."></textarea></label>
+      <button class="button" type="submit">Request consultation <b>↗</b></button><small>We’ll only use these details to arrange your consultation.</small>
+    </form></section>
+  </main>
+  <footer class="container"><a class="brand" href="index.html">NOVA<span>®</span></a><p>© 2026 NOVA PARTNERS</p><p>NEW YORK · LONDON · BENGALURU</p></footer>
+  <script src="script.js"></script>
+</body></html>
